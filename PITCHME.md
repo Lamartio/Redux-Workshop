@@ -104,7 +104,8 @@ class Store() {
   
 }
 ```
-+++ Your turn
++++ 
+## Your turn
 - Create a function `dispatch` that takes anything as its argument and call the middleware and the reducer and set the result to `house`
 - Use the observer pattern to emit the changes of `house`.
 +++
