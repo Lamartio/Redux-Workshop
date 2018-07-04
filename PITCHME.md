@@ -1,4 +1,4 @@
 # Open Source
 @fa[arrow-down]
 +++
-![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
+![Image-Absolute](https://media.giphy.com/media/HP5dest4oOHf2/giphy.gif)
