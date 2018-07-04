@@ -18,4 +18,4 @@
 - Pick your favorite language and editor
 - Create a reducer for the House
 - Run the reducer with the House state and a ThrowStone action and print out the resulting house.
-+++?gist=Lamartio/bd20de7402e35d09bbc0653cb3730397/raw/b8d037ffc36adb9aa3da15b094ea509d2174ebea/reducer.kt&lang=Kotlin&title=Source: Reducer Example (Kotlin)
++++?gist=Lamartio/ad4d43b6c799e408993f6b8d268ca8fc&lang=Kotlin&title=Source: Reducer Example (Kotlin)
