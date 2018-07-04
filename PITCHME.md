@@ -134,7 +134,7 @@ class Store() {
 https://github.com/Lamartio/Redux-Workshop
 ---
 # Summary
-- This was an example of the princible of Redux. |
+- This was an example of the core of Redux. |
 - Reducers are simple functions that change the state. |
 - Middlewares are responsible for side-effects like (asynchronous) network calls |
 - Store holds the current state and emits changes through an observable |
