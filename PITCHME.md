@@ -140,4 +140,3 @@ https://gitpitch.com/lamartio/redux-workshop/master
 - Reducers are simple functions that change the state. |
 - Middlewares are responsible for side-effects like (asynchronous) network calls |
 - Store holds the current state and emits changes through an observable |
-
