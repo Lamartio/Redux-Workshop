@@ -76,6 +76,8 @@ fun houseMiddleware(action: ThrowStone, next: (Any) -> Unit) {
   next(Throwing)
   next(Throwed)
 }
+
+houseMiddleware(ThrowStone, ::println)
 ```
 --- 
 ## Components (3/3)
@@ -113,7 +115,6 @@ class Store() {
 ```
 --- 
 # Back to Doakes...
----
 ![Image-Absolute](https://media.giphy.com/media/HP5dest4oOHf2/giphy.gif)
 ---
 # Open source
