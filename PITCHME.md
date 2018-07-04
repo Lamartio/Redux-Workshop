@@ -1,7 +1,7 @@
 
-- **State** |
-- **Action** |
-- **Reducer** (state, action) -> state |
+- State |
+- Action |
+- Reducer (state, action) -> state |
 ---
 # Open Source
 +++
