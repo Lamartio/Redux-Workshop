@@ -131,7 +131,7 @@ class Store() {
 ![Image-Absolute](https://media.giphy.com/media/HP5dest4oOHf2/giphy.gif)
 ---
 # Open source
-https://github.com/Lamartio/Redux-Workshop
+https://github.com/Lamartio/Redux-Workshop  
 https://gitpitch.com/lamartio/redux-workshop/master
 ---
 # Summary
