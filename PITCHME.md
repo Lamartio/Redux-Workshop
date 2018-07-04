@@ -132,6 +132,7 @@ class Store() {
 ---
 # Open source
 https://github.com/Lamartio/Redux-Workshop
+https://gitpitch.com/lamartio/redux-workshop/master
 ---
 # Summary
 - This was an example of the core of Redux. |
