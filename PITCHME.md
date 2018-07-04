@@ -9,6 +9,7 @@
 * An immutable in-memory data representation |
 * Send a action to create a modified version of that data |
 ---
+## Data example
 ``` Kotlin
 data class Door(val isOpen: Boolean = false)
 
