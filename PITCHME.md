@@ -74,17 +74,35 @@ fun houseMiddleware(action: ThrowStone, next: (Any) -> Unit) {
 - Store = holds the state and emits changes |
 +++
 # Your turn
-- Create an object that is a observable and has a `House` as a property.
-- Add a (private) property reducer and add the created reducer.
-- Add a (private) property middleware and add the created middleware
-- Add a function `dispatch` that takes anything as its argument.
-
+- Create an object called Store
+- Create a property called `house`.
+- Create a (private) property reducer and add the created reducer.
+- Create a (private) property middleware and add the created middleware
+- Create a function `dispatch` that takes anything as its argument. Call the middleware and the reducer and set the result to `house`
+- Use the observer pattern to emit the changes of `house`.
++++
+``` Kotlin
+class Store() {
+  var house: House = House()
+  val reducer : (House, Any) -> Unit = ...
+  val middleware : (Any, (Any) -> Unit) -> Unit = ...
+  
+  fun dispatch(action: Any) {
+    middleware(action, { a -> 
+      house = reducer(house, a)
+      emit()
+    })
+  }
+  
+  fun emit() {
+    // Tell everyone that there is a state change
+  }
+}
+```
 --- 
-
-# Almost there
-
-Back to Doakes...
+# Back to Doakes...
 ---
 ![Image-Absolute](https://media.giphy.com/media/HP5dest4oOHf2/giphy.gif)
 ---
 # Open source
+https://github.com/Lamartio/Redux-Workshop
