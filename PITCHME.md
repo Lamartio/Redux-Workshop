@@ -4,7 +4,7 @@ An introduction to open source
 ![Image-Absolute](https://media.giphy.com/media/HP5dest4oOHf2/giphy.gif)
 ---
 # Workshop Redux
-A 15 course starring sergeant James Doakes
+A 15 course, with sergeant James Doakes
 ---
 ## What is redux?
 * A state management pattern | 
