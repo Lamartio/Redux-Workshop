@@ -8,6 +8,4 @@
 * A state management pattern | 
 * An immutable in-memory data representation |
 * Send a action to create a modified version of that data |
----
-## Example
-+++?gist=Lamartio/bd20de7402e35d09bbc0653cb3730397&lang=Kotlin&title=Source: Example (Kotlin)
+---?gist=Lamartio/bd20de7402e35d09bbc0653cb3730397&lang=Kotlin&title=Source: Example (Kotlin)
