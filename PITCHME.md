@@ -11,9 +11,9 @@
 ---?gist=Lamartio/bd20de7402e35d09bbc0653cb3730397&lang=Kotlin&title=Source: Example (Kotlin)
 ---
 ## Components
-* **State** |
-* **Action** |
-* **Reducer** A function gets **state** and **action** and returns a new state
+- **State** |
+- **Action** |
+- **Reducer** A function gets **state** and **action** and returns a new state |
 +++
 ## Your turn!
 - Pick your favorite language and editor
