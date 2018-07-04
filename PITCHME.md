@@ -13,7 +13,7 @@
 ## Components
 - **State** |
 - **Action** |
-- **Reducer** A function gets **state** and **action** and returns a new state |
+- **Reducer** (state, action) -> state |
 +++
 ## Your turn!
 - Pick your favorite language and editor
