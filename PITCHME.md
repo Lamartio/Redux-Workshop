@@ -8,7 +8,7 @@ An introduction to open source
 ## What is redux?
 * A state management pattern | 
 * An immutable in-memory data representation |
-* Send a action to create a modified version of that data |
+* Send an action to create a modified version of that data |
 ---
 ## Data example
 ``` Kotlin
