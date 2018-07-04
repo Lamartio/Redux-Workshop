@@ -8,7 +8,19 @@
 * A state management pattern | 
 * An immutable in-memory data representation |
 * Send a action to create a modified version of that data |
----?gist=Lamartio/bd20de7402e35d09bbc0653cb3730397&lang=Kotlin&title=Source: Example (Kotlin)
+---
+``` Kotlin
+data class Door(val isOpen: Boolean = false)
+
+data class Window(val isBroken: Boolean = false)
+
+data class House(
+  val door: Door = Door()
+  val window: Window = Door()
+)
+
+object ThrowStone // will break a window
+```
 ---
 ## Components (1/3)
 - State |
