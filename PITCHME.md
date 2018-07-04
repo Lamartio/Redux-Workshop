@@ -128,6 +128,12 @@ class Store() {
   }
 }
 ```
+---
+# Summary
+- This was an example of the core of Redux. |
+- Reducers are simple functions that change the state. |
+- Middlewares are responsible for side-effects like (asynchronous) network calls |
+- Store holds the current state and emits changes through an observable |
 --- 
 # Back to Doakes...
 ![Image-Absolute](https://media.giphy.com/media/HP5dest4oOHf2/giphy.gif)
@@ -135,9 +141,3 @@ class Store() {
 # Open source
 https://github.com/Lamartio/Redux-Workshop  
 https://gitpitch.com/lamartio/redux-workshop/master
----
-# Summary
-- This was an example of the core of Redux. |
-- Reducers are simple functions that change the state. |
-- Middlewares are responsible for side-effects like (asynchronous) network calls |
-- Store holds the current state and emits changes through an observable |
