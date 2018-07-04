@@ -92,8 +92,8 @@ houseMiddleware(ThrowStone, ::println)
 # Your turn
 - Create an object called Store
 - Create a property called `house`.
-- Create a (private) property reducer and add the created reducer.
-- Create a (private) property middleware and add the created middleware.
+- Create a property reducer and add the created reducer.
+- Create a property middleware and add the created middleware.
 +++
 ``` Kotlin
 class Store() {
