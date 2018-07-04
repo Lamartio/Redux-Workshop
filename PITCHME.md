@@ -91,8 +91,19 @@ houseMiddleware(ThrowStone, ::println)
 - Create an object called Store
 - Create a property called `house`.
 - Create a (private) property reducer and add the created reducer.
-- Create a (private) property middleware and add the created middleware
-- Create a function `dispatch` that takes anything as its argument. Call the middleware and the reducer and set the result to `house`
+- Create a (private) property middleware and add the created middleware.
++++
+``` Kotlin
+class Store() {
+
+  var house: House = House()
+  val reducer : (House, Any) -> Unit = ...
+  val middleware : (Any, (Any) -> Unit) -> Unit = ...
+  
+}
+```
++++ Your turn
+- Create a function `dispatch` that takes anything as its argument and call the middleware and the reducer and set the result to `house`
 - Use the observer pattern to emit the changes of `house`.
 +++
 ``` Kotlin
