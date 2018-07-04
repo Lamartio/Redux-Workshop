@@ -19,4 +19,21 @@
 - Pick your favorite language and editor
 - Create a reducer for the House
 - Run the reducer with the House state and a ThrowStone action and print out the resulting house.
-+++?gist=Lamartio/ad4d43b6c799e408993f6b8d268ca8fc&lang=Kotlin&title=Source: Reducer Example (Kotlin)
++++
+``` Kotlin
+fun houseReducer(house: House, action: ThrowStone) {
+  val window = house.window.copy(isBroken = true)
+  val house = house.copy(window = window)
+
+  return house
+}
+```
+---
+## Components
+- State 
+- Action 
+- Reducer = (state, action) -> state
+- Middleware |
++++
+## Middleware
+The handler for asynchronous actions. 
