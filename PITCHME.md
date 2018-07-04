@@ -1,8 +1,9 @@
 # Open Source
 An introduction to open source
 ---
-# Workshop Redux
 ![Image-Absolute](https://media.giphy.com/media/HP5dest4oOHf2/giphy.gif)
+---
+# Workshop Redux
 ---
 ## What is redux?
 * A state management pattern | 
